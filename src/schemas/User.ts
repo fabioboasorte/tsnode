@@ -4,7 +4,7 @@ interface UserInterface extends Document {
   email?: string
   firstName?: string
   lastName?: string
-  isUser(): string
+  isUser(): boolean
 }
 
 const UserSchema = new Schema({
